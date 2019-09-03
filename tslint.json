@@ -1,0 +1,13 @@
+{
+  "extends": "tslint-microsoft-contrib/latest",
+  "linterOptions": {
+    "exclude": ["node_modules/**"]
+  },
+  "rules": {
+    "no-any": true,
+    "ordered-imports": true,
+
+    "no-relative-imports": false,
+    "no-backbone-get-set-outside-model": false
+  }
+}

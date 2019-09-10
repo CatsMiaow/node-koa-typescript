@@ -12,6 +12,7 @@ Run [http://localhost:3000](http://localhost:3000)
 
 ### Router
 - /health
+- /throw?foo=bar
 - /login?username=test&password=test `fake login`
 - /check `login check`
 - /logout
